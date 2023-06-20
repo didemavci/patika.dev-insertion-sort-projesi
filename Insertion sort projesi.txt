@@ -1,0 +1,36 @@
+1.soru
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+ cevap
+Sort diziyi küçükten büyüğe sıralar.Karşılaştırma işlemine ikinci elemandan başlanır.2. eleman soldaki elemanlarla tek tek karşılaştırılır. Soldakinden küçük ise yer değiştirirler.Seçilen eleman soldaki sayıdan büyük olana kadar devam eder.
+
+[22, 27, 16, 2, 18, 6]
+[22, 27, 16, 2, 18, 6]->[16, 22, 27, 2, 18, 6]
+[22, 27, 16, 2, 18, 6]->[2, 16, 22, 27, 18, 6]
+[2, 16, 22, 27, 18, 6]->[2, 16, 18, 22, 27, 6]
+[2, 16, 18, 22, 27, 6]->[2, 6, 16, 18, 22, 27]
+
+2.soru
+Big-O gösterimini yazınız.
+cevap
+Big O Notation = n*(n+1)/2 =(n^2+n) / 2 = n^2
+
+
+3.soru
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+
+cevap
+[2, 6, 16, 18, 22, 27] dizi sıralandığında 18 sayısı ortada olduğu için cevap average case
+
+4.soru
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+[7, 3 , 5, 8, 2, 9, 4, 15, 6] -> [3, 7, 5, 8, 2, 9, 4, 15, 6]
+[3, 7, 5 , 8, 2, 9, 4, 15, 6] -> [3, 5, 7, 8, 2, 9, 4, 15, 6]
+[3, 5, 7, 8 , 2, 9, 4, 15, 6] -> [3, 5, 7, 8, 2, 9, 4, 15, 6]
+[3, 5, 7, 8, 2 , 9, 4, 15, 6] -> [2, 3, 5, 7, 8, 9, 4, 15, 6]
